@@ -1,18 +1,33 @@
 body {
   font-family: sans-serif;
-  background-color: #f4f4f4;
+  background-color: #d1f7f6;
   color: #333;
+  padding: 20px 50px;
+  border: 2px;
+}
+
+.container {
   max-width: 600px;
   margin: auto;
-  padding: 20px;
 }
 
 h1 {
   color: blue;
-  text-align: center;
+  text-align: center;  
 }
 
 p {
   font-size: 16px;
   text-align: justify;
+}
+
+img {
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
 }
